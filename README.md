@@ -18,5 +18,7 @@ This project was created to test automation based on docker - Travis CI - AWS
  - Sign in to https://travis-ci.org/ (you can use github credentials)
  - From profile/Setings sigh your project to be monitored by Travis-CI
  - create a .travis.yml file in your project root dir.
- * 
+ - After you see green in travis CI you can continue
+### Creating a Beanstalk application in AWSS console
+
 
