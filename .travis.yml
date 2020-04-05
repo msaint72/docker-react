@@ -1,0 +1,9 @@
+sudo: required
+service:
+  - docker
+
+before_install:
+  - docker build -t msaint/docker-react -f  Dockerfile.dec .
+
+scripts:
+  - docker run -e CI=true msaint/docker-react npm run test
